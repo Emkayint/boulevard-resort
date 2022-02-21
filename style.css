@@ -5,5 +5,8 @@
 }
 
 .hero{
-    
+    background-image: url('assets/cory-bjork-D1yT791Nf9A-unsplash.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
 }
