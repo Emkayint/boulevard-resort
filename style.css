@@ -9,4 +9,18 @@
     background-position: center;
     background-size: cover;
     height: 100vh;
+    text-align: center;
+    align-content: center;
+    display: flex;
+}
+
+.hero h1{
+    color: rgb(255, 255, 255);
+    width: 30%;
+    align-self: center;
+    text-align: center;
+    background-color: rgba(0, 0, 0, .5);
+    margin: 0 auto;
+    font-size: 50px;
+
 }
