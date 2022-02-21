@@ -27,6 +27,9 @@
 .container{
     padding-left: 10%;
     padding-right: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background: linear-gradient(45deg, #f2f2f2, #f5f5f5);
 }
 
 .row::after{
@@ -36,6 +39,9 @@
    max-resolution: 0;
 
 }
+.row{
+    margin-top: 20px;
+}
 
 .column-half{
     width: 50%;
@@ -44,6 +50,7 @@
 }
 .content-line{
     height: 400px;
+    padding: 30px;
 }
 .content-line span{
     display: block;
@@ -57,6 +64,6 @@
 
 .content img{
     height: 400px;
-    width: 400px;
+    width: 100%;
 }
 
