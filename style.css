@@ -62,6 +62,7 @@
 
 .activities h1{
     text-align: center;
+    
 }
 
 .activities{
@@ -89,3 +90,6 @@
     padding: 50px;
 }
 
+.slides{
+    display: none;
+}
