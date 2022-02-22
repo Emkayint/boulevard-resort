@@ -36,7 +36,6 @@
    display:table;
    content: "";
    clear: both;
-   max-resolution: 0;
 
 }
 .row{
@@ -61,9 +60,32 @@
     
 }
 
+.activities h1{
+    text-align: center;
+}
+
+.activities{
+    background-color: #e7dddd;
+    padding: 5%;
+}
 
 .content img{
     height: 400px;
     width: 100%;
+}
+
+
+/* reacreation activities */
+
+.column-content{
+    max-width: 50%;
+    margin: 0 auto;
+}
+
+.column-content img{
+    width: 100%;
+}
+.my-text{
+    padding: 50px;
 }
 
