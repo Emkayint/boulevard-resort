@@ -1,13 +1,13 @@
 
-let no = 0;
-showSlides()
+let slideIndex = 0;
+showSlides();
 
 function showSlides(){
     let i;
     let slides = document.getElementsByClassName("slides");
 
     for(i = 0; i < slides.length; i++){
-        slides[i].style.display = "slideIndexne";
+        slides[i].style.display = "none";
     }
 
     slideIndex ++;
