@@ -47,6 +47,10 @@
     padding: 10px;
     float: left;
 }
+.column-4{
+    width: 25%;
+    float: left;
+}
 .content-line{
     height: 400px;
     padding: 30px;
@@ -85,6 +89,7 @@
 
 .column-content img{
     width: 100%;
+    max-height: 400px;
 }
 .my-text{
     padding: 50px;
@@ -92,4 +97,10 @@
 
 .slides{
     display: none;
+}
+
+/* contacts */
+
+.contacts{
+    margin: 0 auto;
 }
